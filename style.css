@@ -90,6 +90,8 @@ header h1 {
     display: flex;
     flex-direction: column;
     overflow: auto;
+    background-color: var(--panel-bg-color); /* Ensure light color in light mode */
+    color: var(--text-color); /* Use text color variable for contrast */
 }
 
 .panel-left {
